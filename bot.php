@@ -9,8 +9,8 @@ Modified @ Farzain - zFz
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //sesuaikan 
-$channelSecret = 'YOUR-CHANNEL-SECRET-CODE';//sesuaikan
+$channelAccessToken = 'W9WtX / zHEgxl5 / FHiSavnW7aYVQZei63VTdHN9ZGxeZTi1of8yujo5yVZceHLk2MHWp1ARHZFDu37ukOS5ZKM34RPncgwE / m2nhVmGGD + Z / 8eGclS0ut7Fgtu1Z62URpAaFIywK5TpARrupkbfel3AdB04t89 / 1O / w1cDnyilFU ='; //sesuaikan 
+$ channelSecret  =  'e5ee43b3f6c24a181d72673b6f90b629' ; // sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
@@ -69,7 +69,7 @@ function shalat($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/menu') {
-    $text = "Assalamualaikum Kakak, aku adalah bot jadwal shalat, silahkan ketik\n\n/shalat <nama tempat>\n\nnanti aku bakalan kasih tahu jam berapa waktunya shalat ^_^";
+    $text = "Makasih Dah Invite ";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -104,7 +104,7 @@ if($message['type']=='text') {
 							'messages' => array(
 								array(
 										'type' => 'text',									
-										'text' => 'Makasih Kak Stikernya ^_^'										
+										'text' => 'Jangan Ngirim Stiker Ntar Spam '										
 									
 									)
 							)
